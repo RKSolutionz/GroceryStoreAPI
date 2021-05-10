@@ -1,0 +1,158 @@
+2021-05-09 18:13:32,203  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 18:13:32,450  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 255.3379ms 200 text/html;charset=utf-8
+ 2021-05-09 18:13:32,671  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 18:13:32,832  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 160.7908ms 200 application/json;charset=utf-8
+ 2021-05-09 18:13:39,933  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/api/Customer/hc  
+ 2021-05-09 18:13:40,042  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.HeartBeat (GroceryStoreAPI)'
+ 2021-05-09 18:13:40,101  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "HeartBeat", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HeartBeat() on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 18:13:40,119  INFO GroceryStoreAPI.Controllers.CustomerController.? [?] - MESSAGE: Running
+ 2021-05-09 18:13:40,136  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.String'.
+ 2021-05-09 18:13:40,148  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.HeartBeat (GroceryStoreAPI) in 40.9977ms
+ 2021-05-09 18:13:40,150  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.HeartBeat (GroceryStoreAPI)'
+ 2021-05-09 18:13:40,152  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 219.4602ms 200 text/plain; charset=utf-8
+ 2021-05-09 18:14:28,068  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/api/Customer/1  
+ 2021-05-09 18:14:28,072  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomerById (GroceryStoreAPI)'
+ 2021-05-09 18:14:28,116  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetCustomerById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[GroceryStoreAPI.Models.Customer]]] GetCustomerById(Int32) on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 18:14:28,162  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 18:14:28,321  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'GroceryStoreAPI.Models.Customer'.
+ 2021-05-09 18:14:28,368  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.GetCustomerById (GroceryStoreAPI) in 250.0196ms
+ 2021-05-09 18:14:28,371  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomerById (GroceryStoreAPI)'
+ 2021-05-09 18:14:28,375  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 307.6391ms 200 application/json; charset=utf-8
+ 2021-05-09 18:14:34,565  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/api/Customer/189  
+ 2021-05-09 18:14:34,568  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomerById (GroceryStoreAPI)'
+ 2021-05-09 18:14:34,571  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetCustomerById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[GroceryStoreAPI.Models.Customer]]] GetCustomerById(Int32) on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 18:14:34,575  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 18:14:34,583  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.String'.
+ 2021-05-09 18:14:34,585  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.GetCustomerById (GroceryStoreAPI) in 12.2ms
+ 2021-05-09 18:14:34,588  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomerById (GroceryStoreAPI)'
+ 2021-05-09 18:14:34,590  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 24.9248ms 404 text/plain; charset=utf-8
+ 2021-05-09 18:27:59,831  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 18:28:00,079  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 256.87ms 200 text/html;charset=utf-8
+ 2021-05-09 18:28:00,291  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 18:28:00,463  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 171.7375ms 200 application/json;charset=utf-8
+ 2021-05-09 18:28:17,526  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/api/Customer/hc  
+ 2021-05-09 18:28:17,638  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.HeartBeat (GroceryStoreAPI)'
+ 2021-05-09 18:28:17,691  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "HeartBeat", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult HeartBeat() on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 18:28:17,708  INFO GroceryStoreAPI.Controllers.CustomerController.? [?] - MESSAGE: Running
+ 2021-05-09 18:28:17,725  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.String'.
+ 2021-05-09 18:28:17,738  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.HeartBeat (GroceryStoreAPI) in 40.9257ms
+ 2021-05-09 18:28:17,740  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.HeartBeat (GroceryStoreAPI)'
+ 2021-05-09 18:28:17,742  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 216.7343ms 200 text/plain; charset=utf-8
+ 2021-05-09 19:11:42,315  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 19:11:42,583  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 277.5396ms 200 text/html;charset=utf-8
+ 2021-05-09 19:11:42,809  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 19:11:42,968  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 160.7524ms 200 application/json;charset=utf-8
+ 2021-05-09 23:23:07,193  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 23:23:07,504  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 322.1546ms 200 text/html;charset=utf-8
+ 2021-05-09 23:23:07,825  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 23:23:08,083 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.? [?] - MESSAGE: An unhandled exception has occurred while executing the request.
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-09 23:23:08,105  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 283.7812ms 500 text/plain
+ 2021-05-09 23:25:35,136  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 23:25:35,395  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 268.7802ms 200 text/html;charset=utf-8
+ 2021-05-09 23:25:35,604  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 23:25:35,803 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.? [?] - MESSAGE: An unhandled exception has occurred while executing the request.
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-09 23:25:35,819  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 214.8202ms 500 text/plain
+ 2021-05-09 23:28:08,880  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 23:28:09,122  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 251.1658ms 200 text/html;charset=utf-8
+ 2021-05-09 23:28:09,345  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 23:28:09,541 ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.? [?] - MESSAGE: An unhandled exception has occurred while executing the request.
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-09 23:28:09,558  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 213.9262ms 500 text/plain
+ 2021-05-09 23:29:37,234  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 23:29:37,473  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 249.4015ms 200 text/html;charset=utf-8
+ 2021-05-09 23:29:37,692  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 23:29:37,862  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 169.9583ms 200 application/json;charset=utf-8
+ 2021-05-09 23:29:57,106  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/api/Customer/list  
+ 2021-05-09 23:29:57,214  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI)'
+ 2021-05-09 23:29:57,284  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[GroceryStoreAPI.Models.Customer]]] GetCustomersAsync() on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 23:29:57,304  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:29:57,307  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:29:57,480  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[GroceryStoreAPI.Models.Customer, GroceryStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2021-05-09 23:29:57,545  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI) in 254.5314ms
+ 2021-05-09 23:29:57,548  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI)'
+ 2021-05-09 23:29:57,552  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 446.9222ms 200 application/json; charset=utf-8
+ 2021-05-09 23:30:54,009  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 23:30:54,263  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 262.5172ms 200 text/html;charset=utf-8
+ 2021-05-09 23:30:54,504  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 23:30:54,662  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 157.6603ms 200 application/json;charset=utf-8
+ 2021-05-09 23:32:32,125  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 23:32:32,369  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 253.9761ms 200 text/html;charset=utf-8
+ 2021-05-09 23:32:32,616  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 23:32:32,778  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 162.4081ms 200 application/json;charset=utf-8
+ 2021-05-09 23:32:44,447  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 DELETE https://localhost:44341/api/Customer/delete/1  
+ 2021-05-09 23:32:44,548  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI)'
+ 2021-05-09 23:32:44,625  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "DeleteCustomerById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomerById(Int32) on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 23:32:44,682  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get Customer by Id : 1
+ 2021-05-09 23:32:44,684  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:32:44,687  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:32:44,839  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Delete Customer by Id : 1
+ 2021-05-09 23:32:44,840  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:32:44,842  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:32:44,847  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Write Database
+ 2021-05-09 23:32:44,903  INFO Microsoft.AspNetCore.Mvc.StatusCodeResult.? [?] - MESSAGE: Executing HttpStatusCodeResult, setting HTTP status code 200
+ 2021-05-09 23:32:44,910  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI) in 278.5097ms
+ 2021-05-09 23:32:44,913  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI)'
+ 2021-05-09 23:32:44,919  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 471.0358ms 200 
+ 2021-05-09 23:32:57,362  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/api/Customer/list  
+ 2021-05-09 23:32:57,368  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI)'
+ 2021-05-09 23:32:57,376  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[GroceryStoreAPI.Models.Customer]]] GetCustomersAsync() on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 23:32:57,380  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:32:57,382  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:32:57,413  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[GroceryStoreAPI.Models.Customer, GroceryStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2021-05-09 23:32:57,445  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI) in 67.058ms
+ 2021-05-09 23:32:57,447  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI)'
+ 2021-05-09 23:32:57,449  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 88.0096ms 200 application/json; charset=utf-8
+ 2021-05-09 23:33:16,505  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 DELETE https://localhost:44341/api/Customer/delete/1  
+ 2021-05-09 23:33:16,508  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI)'
+ 2021-05-09 23:33:16,512  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "DeleteCustomerById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomerById(Int32) on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 23:33:22,970  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get Customer by Id : 1
+ 2021-05-09 23:33:23,539  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:33:23,543  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:33:54,591  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Delete Customer by Id : 1
+ 2021-05-09 23:33:55,238  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:33:55,241  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:37:03,331  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/index.html  
+ 2021-05-09 23:37:03,577  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 254.4924ms 200 text/html;charset=utf-8
+ 2021-05-09 23:37:03,805  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/swagger/v1/swagger.json  
+ 2021-05-09 23:37:03,985  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 180.2138ms 200 application/json;charset=utf-8
+ 2021-05-09 23:37:23,380  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 DELETE https://localhost:44341/api/Customer/delete/1  
+ 2021-05-09 23:37:23,483  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI)'
+ 2021-05-09 23:37:23,566  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "DeleteCustomerById", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomerById(Int32) on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 23:37:26,720  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get Customer by Id : 1
+ 2021-05-09 23:37:26,723  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:37:26,727  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:37:30,748  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Delete Customer by Id : 1
+ 2021-05-09 23:37:31,316  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:37:31,319  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:37:51,083  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Write Database
+ 2021-05-09 23:37:52,742  INFO Microsoft.AspNetCore.Mvc.StatusCodeResult.? [?] - MESSAGE: Executing HttpStatusCodeResult, setting HTTP status code 200
+ 2021-05-09 23:37:52,753  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI) in 29177.4458ms
+ 2021-05-09 23:37:52,757  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.DeleteCustomerById (GroceryStoreAPI)'
+ 2021-05-09 23:37:52,765  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 29383.4588ms 200 
+ 2021-05-09 23:38:06,351  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request starting HTTP/2.0 GET https://localhost:44341/api/Customer/list  
+ 2021-05-09 23:38:06,359  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executing endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI)'
+ 2021-05-09 23:38:06,366  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[GroceryStoreAPI.Models.Customer]]] GetCustomersAsync() on controller GroceryStoreAPI.Controllers.CustomerController (GroceryStoreAPI).
+ 2021-05-09 23:38:06,371  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE: Get All Customers
+ 2021-05-09 23:38:06,373  INFO GroceryStoreAPI.Services.CustomerService.? [?] - MESSAGE:  Read Database
+ 2021-05-09 23:38:06,396  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.? [?] - MESSAGE: Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[GroceryStoreAPI.Models.Customer, GroceryStoreAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2021-05-09 23:38:06,431  INFO Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.? [?] - MESSAGE: Executed action GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI) in 62.6317ms
+ 2021-05-09 23:38:06,433  INFO Microsoft.AspNetCore.Routing.EndpointMiddleware.? [?] - MESSAGE: Executed endpoint 'GroceryStoreAPI.Controllers.CustomerController.GetCustomersAsync (GroceryStoreAPI)'
+ 2021-05-09 23:38:06,435  INFO Microsoft.AspNetCore.Hosting.Diagnostics.? [?] - MESSAGE: Request finished in 84.6181ms 200 application/json; charset=utf-8
+ 
